@@ -54,7 +54,7 @@ formatData = (json, options) => {
 getDataFromNBA = (params, endpoint, options) => {
 	var headers = {
 		'Host': 'stats.nba.com',
-		'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+		'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Brave Chrome/87.0.4280.101 Safari/537.36',
 		'Accept': 'application/json, text/plain, */*',
 		'Accept-Language': 'en-US,en;q=0.5',
 		'Referer': 'https://stats.nba.com/',
